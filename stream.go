@@ -38,7 +38,7 @@ func (s *stream) Reset() error {
 }
 
 func (s *stream) Close() error {
-	s.Stream.Reset(reset)
+	//s.Stream.Reset(reset)
 	return s.Stream.Close()
 }
 
